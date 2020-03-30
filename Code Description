@@ -1,0 +1,33 @@
+The project mainly includes two sections: 1. STUDENT SECTION
+					                                2. ADMIN SECTION
+SECTION 1 (STUDENT SECTION):
+In this section we manage all the operations of the library from student perspective.
+It includes variety of options:
+
+1.	ISSUE A BOOK- For this a function is created wherein we ask the details regarding the book to be issued from the student and analysis of the content present in the file containing our books list. If the desired book is present in the list then:
+Condition is checked if the number of books is sufficient:
+
+-	YES: THE BOOK IS ISSUED TO STUDENT.
+(Here we reduce the number of books present in stock by one)
+-	NO: REQUEST FOR THE STOCK OF BOOKS TO BE REFILLED IS SENT BY THE ADMIN
+
+2.	RETURN A BOOK- For this a function is created wherein we ask the details regarding the book to be issued from the student and analysis of the content present in the file containing our books list. If the desired book is present in the list then:
+
+-	YES: THE BOOK IS ACCEPTED.
+(Here we increase the number of books present in stock by one)
+-	NO: WE UPDATE OUR LIST OF STOCK BY ADDING DETAILS OF THE RETURNED BOOK
+
+SECTION 2 (ADMIN SECTION):
+
+In this section we manage all the operations of the library from admin’s perspective.
+It includes variety of options:
+
+1.	INSERT STOCK - For this a function is created wherein we ask the details regarding the book to be inserted from the admin and analysis of the content present in the file containing our books list. If the desired book is present in the list then:
+-	YES: THE BOOK IS INSERTED BY THE ADMIN.
+(Here we increase the number of books present in stock by number of books added by the admin)
+-	NO: WE UPDATE OUR LIST OF STOCK BY ADDING DETAILS OF THE INSERTED BOOK 
+-	(Here we add the number of books present in the stock by number of books added by the admin)
+
+2.	CHECK STOCK - For this a function is created wherein we ask the details regarding the book to be checked from the admin and analysis of the content present in the file containing our books list. If the desired book is present in the list then:
+-	YES: THE DETAILS ARE DISPLAYED
+-	NO:  WE SEND A REQUEST TO INCREASE THE STOCK
