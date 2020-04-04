@@ -11,6 +11,7 @@ public static void main(String args[]) {
 	System.out.println("To access admin account enter 1");
 	System.out.println("To access student account enter 2");
 	int choice,num;
+	int books;
 	Scanner sc = new Scanner(System.in);
 	choice = sc.nextInt();
 	Library libObj = new Library();
